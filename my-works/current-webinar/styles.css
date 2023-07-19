@@ -1,0 +1,570 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./Landing-Imágen.webp');
+    background-size: 1920px 670px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+button {
+    border-radius: 10rem;
+    border: solid 1px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.8rem 2.6rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.negrita {
+    font-weight: 600;
+}
+
+.tapar {
+    font-size: 1px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4.3rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.descrip {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-right: 4rem;
+}
+
+.contdescrip {
+    margin-bottom: 6rem;
+    color: white
+}
+
+.contdescrip2 p {
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.contform {
+    color: white;
+    background-color: #1C1C1C;
+    border-radius: 10px;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.contformAdentro {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.chicas {
+    font-size: 1.1rem;
+}
+
+.headerMain {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+header img {
+    width: 17rem;
+    margin-bottom: 8rem;
+}
+
+main,
+.mgrid2 {
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.hs-input {
+    font-size: 1rem;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.hs-error-msgs {
+    list-style: none;
+}
+
+.hs-error-msg {
+    margin-top: 0.5rem;
+}
+
+.hs_error_rollup {
+    display: none;
+}
+
+.inputs-list {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.hs-form-booleancheckbox::marker {
+    color: #1C1C1C;
+}
+
+.hs-fieldtype-booleancheckbox {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+
+
+.hs-form-booleancheckbox input {
+    width: 25px;
+}
+
+.hs-form-booleancheckbox span {
+    margin-left: 15px;
+}
+
+input[type=submit] {
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10rem;
+    background-color: white;
+    padding: 1rem 7rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: 1px white solid;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input[type=submit]:hover {
+    background-color: #1C1C1C;
+    color: white;
+    border: 1px white solid;
+    transition: all 0.2s ease;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+}
+
+.ponentes {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+}
+
+.ponentes img {
+    margin-bottom: 1rem;
+}
+
+.info {
+    margin-right: 3rem;
+    margin-bottom: 4rem;
+}
+
+.s4 {
+    color: white;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://22215557.fs1.hubspotusercontent-na1.net/hubfs/22215557/%5BLATAM%5D%20%7D%20Landing%20Page%20Images/niklas-hamann-I00oSGDCsWI-unsplash%20.jpeg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.s4 p {
+    font-weight: 300;
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.s4 p a {
+    font-weight: 400;
+}
+
+.s4 a {
+    color: white;
+}
+
+.s4 a:hover {
+    color: lightgray;
+    transition: all 0.2s ease;
+}
+
+.s4 i {
+    font-size: 3.4rem;
+}
+
+.grids4 {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.grids4a {
+    grid-column: 1;
+    margin-right: 1rem;
+}
+
+.grids4b {
+    grid-column: 2;
+}
+
+.s4 button {
+    font-size: 1rem;
+    font-weight: 300;
+    border: 0;
+    background-color: #0074B3;
+    color: white;
+}
+
+.s4 button:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.titform {
+    color: white;
+    font-size: 2.9rem;
+}
+
+.txtform a {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.txtform a:hover {
+    transition: all 0.2s ease;
+}
+
+.data {
+    padding: 5rem 4rem 5rem 0;
+}
+
+footer img {
+    width: 13rem;
+}
+
+footer p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+}
+
+.descripMobile {
+	display: none;
+}
+
+.descripDesk {
+	display: block;
+}
+
+/* ESPECÍFICAS */
+
+.espdescrip {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+/* FIN ESPECÍFICAS */
+
+@media only screen and (min-width: 1921px) {
+	.w06-22 .background {
+    background-size: 3000px 670px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+    .data {
+        padding: 3rem 4rem 3rem 0;
+    }
+
+    .descrip {
+        font-size: 2.7rem;
+    }
+
+    .w11-24 .background {
+        background-size: 1920px 750px;
+    }
+	
+	.w06-22 .background {
+        background-size: 1920px 500px;
+    }
+	
+	.w06-22 header img {
+		margin-bottom: 50px
+	}
+	
+	.w06-22 h1 {
+		font-size: 37px;
+	}
+	
+	.w06-22 h2 {
+		font-size: 25px
+	}
+	
+	.w06-22 .descrip {
+		font-size: 30px
+	}
+	
+	
+}
+
+@media only screen and (max-width: 1199px) {
+    .descrip {
+        padding-right: 0;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .w11-24 .background {
+        background-size: 1920px 700px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 2.9rem;
+    }
+
+    .descrip {
+        font-size: 2.4rem;
+        line-height: 3.3rem;
+    }
+
+    input[type=submit] {
+        padding: 1rem 5rem;
+    }
+
+    .data {
+        padding: 1rem 3rem 1rem 0;
+    }
+
+    .background {
+        background-size: 1920px 600px;
+    }
+
+    footer img {
+        margin-bottom: 1rem;
+    }
+
+    .descrip {
+        padding-right: 1rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .descrip,.ponentes,.info{
+        margin-right: 0;
+        padding-right: 0;
+    }
+	
+	  .descripMobile {
+	display: block;
+}
+
+.descripDesk {
+	display: none;
+}
+	
+	.contform {
+		margin-bottom: 30px
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .descrip {
+        font-size: 1.9rem;
+        line-height: 2.4rem;
+    }
+
+    .background {
+        background-size: 1920px 22%;
+    }
+
+    .s4 {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background-attachment: scroll;
+    }
+
+    .data {
+        padding: 1rem 2rem 1rem 0;
+    }
+
+    .background {
+        background-size: 1920px 550px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .contform {
+        margin-bottom: 7rem;
+    }
+
+    .headerMain {
+        padding-bottom: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .descrip {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+    }
+
+    header img {
+        margin-bottom: 3rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    .data {
+        padding-left: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .titform {
+        font-size: 2.3rem;
+    }
+
+    .s4 p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .background {
+        background-size: 1920px 450px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .background {
+        background-size: 1920px 480px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .background {
+        background-size: 1920px 550px;
+    }
+}
+
+
+
+/* ESPECÍFICAS */
+
+@media only screen and (max-width: 991px) {
+    .h3esp {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+
+    .w11-24 .background {
+        background-size: 1920px 650px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .w11-24 .background {
+        background-size: 1920px 550px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .h3esp {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    .w11-24 .background {
+        background-size: 1920px 475px;
+    }
+	
+	.w06-22 h1 {
+		font-size: 33px;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.w06-22 h1 {
+		font-size: 25px;
+	}
+	
+	.w06-22 h2 {
+		font-size: 15px;
+	}
+	
+	.w06-22 .descrip {
+		font-size: 22px;
+	}
+  
+  .w06-22 .background {
+        background-size: 1920px 440px;
+    }
+}
+
+/* FIN ESPECÍFICAS */

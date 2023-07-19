@@ -1,0 +1,707 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: #385bff;
+}
+
+::selection {
+    color: white;
+    background: #385bff;
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+
+.h1div {
+    transform: translateY(40%);
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header img {
+    width: 80px;
+}
+
+header button {
+    transform: translateY(20%);
+    float: right;
+    font-size: 23px;
+    padding: 5px 15px;
+}
+
+
+
+
+
+.btn {
+    color: #385bff;
+    font-size: 23px;
+    font-weight: 600;
+    border: 3px solid #385bff;
+    padding: 5px 15px;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.btn::before {
+    background: #385bff;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+
+.btn::before {
+    width: 100%;
+    height: 0%;
+}
+
+.btn:hover::before {
+    height: 100%;
+    width: 120%;
+}
+
+.btn:hover {
+    color: white;
+    border: 3px solid #385bff;
+}
+
+
+
+
+
+
+
+
+
+.phone {
+    text-align: right;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main,
+section,
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1 a {
+    color: black;
+    text-decoration: underline #385bff;
+    box-shadow: inset 0 0 0 0 #385bff;
+    transition: color .4s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+h1 a:hover {
+    box-shadow: inset 700px 0 0 0 #385bff;
+    color: white;
+}
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter1 h1 {
+    color: #000;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 10px solid #385bff;
+    border-color: transparent;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    animation:
+        typing 1.2s steps(30, end) forwards,
+        blink-caret .2s step-end 6 forwards;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter2 h1 {
+    width: 0;
+    color: #000;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 10px solid #385bff;
+    border-color: transparent;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    animation:
+        typing 1.2s steps(30, end) forwards,
+        blink-caret .2s step-end 6 forwards;
+    animation-delay: 1.2s;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter3 h1 {
+    width: 0;
+    color: #000;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 10px solid #385bff;
+    border-color: transparent;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    animation:
+        typing 1.2s steps(30, end) forwards,
+        blink-caret .2s step-end 6 forwards;
+    animation-delay: 2.4s;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #385bff
+    }
+}
+
+main {
+    min-height: 80vh;
+}
+
+.myWorks,
+.contactMe {
+    min-height: 100vh;
+}
+
+main img {
+    width: 90%;
+    float: right;
+}
+
+.aboutMe {
+    height: auto;
+    background: linear-gradient(to right, #1e3188, #385bff);
+    padding: 0;
+}
+
+.aboutMe .textDiv {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutMe h2 {
+    /* font-family: 'Source Code Pro', monospace; */
+    color: white;
+    margin-bottom: 40px;
+}
+
+.aboutMe p {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    color: white;
+    font-size: 21px;
+}
+
+.aboutMe h2 span {
+    text-decoration: underline 6px #ffffff;
+}
+
+.aboutMe img {
+    width: 250px;
+    float: right;
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+.myWorks h2 span,
+.contactMe h2 span {
+    text-decoration: underline 6px #385bff;
+}
+
+.servicesItems .col {
+    margin-bottom: 20px;
+}
+
+.servicesItems a {
+    text-decoration: none;
+}
+
+.bullets2div {
+    width: 100%;
+    height: 230px;
+    /* background-color: #F4F5F8; */
+    border-radius: 5px;
+    position: relative;
+}
+
+.bullets2 {
+    width: 100%;
+    height: 100%;
+    background-color: #147ec0;
+    transition: clip-path 0.4s;
+    border-radius: 5px;
+}
+
+.antes {
+    font-weight: 400;
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white !important;
+    text-transform: none !important;
+}
+
+.despues {
+    font-weight: 400;
+    font-size: 35px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white !important;
+    text-transform: none !important;
+}
+
+.b2divA {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041725.jpg');
+    background-size: cover;
+}
+
+.b2divB {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041536.jpg');
+    background-size: cover;
+}
+
+.b2divC {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://21369116.fs1.hubspotusercontent-na1.net/hubfs/21369116/Insside/AdobeStock_572971350.jpeg');
+    background-size: cover;
+    background-position: right;
+}
+
+.b2divD {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://21647068.fs1.hubspotusercontent-na1.net/hubfs/21647068/%5BLATAM%5D%20Landings/Landing-Im%C3%A1gen.jpg');
+    background-size: cover;
+}
+
+.b2divE {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/360_F_306025527_l6SsftbNIm72C6nnPr2tne35elVcqxFS.jpg');
+    background-size: cover;
+}
+
+.b2divF {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Control%20de%20iluminaci%C3%B3n%20CX/Background-Image-Controles-CX.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.b2divA .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041725.jpg');
+}
+
+.b2divB .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041536.jpg');
+}
+
+.b2divC .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://21369116.fs1.hubspotusercontent-na1.net/hubfs/21369116/Insside/AdobeStock_572971350.jpeg');
+    background-position: right;
+}
+
+.b2divD .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://21647068.fs1.hubspotusercontent-na1.net/hubfs/21647068/%5BLATAM%5D%20Landings/Landing-Im%C3%A1gen.jpg');
+}
+
+.b2divE .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/360_F_306025527_l6SsftbNIm72C6nnPr2tne35elVcqxFS.jpg');
+}
+
+.b2divF .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Control%20de%20iluminaci%C3%B3n%20CX/Background-Image-Controles-CX.jpg');
+    background-position: center;
+}
+
+.bullets2div .bullets2 {
+    clip-path: circle(0% at 50% 50%);
+    background-size: cover;
+    transform: scale(1.04);
+}
+
+.bullets2div:hover .bullets2 {
+    clip-path: circle(100% at 50% 50%);
+}
+
+.contactMe h2 {
+    margin-bottom: 150px;
+}
+
+.contactMe p {
+    font-size: 33px;
+    text-align: right;
+}
+
+.contactMe i {
+    font-size: 40px;
+}
+
+.contactMe img {
+    width: 70%;
+}
+
+.contacto {
+    transform: translateY(10%);
+}
+
+.contactMe .aPhone,
+.contactMe .aEmail {
+    background-image: linear-gradient(to right,
+            #385bff,
+            #385bff 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactMe .aPhone:before,
+.contactMe .aEmail:before {
+    content: '';
+    background: #385bff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactMe .aPhone:hover,
+.contactMe .aEmail:hover {
+    background-position: 0;
+}
+
+.contactMe .aPhone:hover::before,
+.contactMe .aEmail:hover::before {
+    width: 100%;
+}
+
+.contactMe .aWhatsapp {
+    background-image: linear-gradient(to right,
+            #2BB741,
+            #2BB741 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactMe .aWhatsapp:before {
+    content: '';
+    background: #2BB741;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactMe .aWhatsapp:hover {
+    background-position: 0;
+}
+
+.contactMe .aWhatsapp:hover::before {
+    width: 100%;
+}
+
+.contactMe .aLinkedin {
+    background-image: linear-gradient(to right,
+            #0e76a8,
+            #0e76a8 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactMe .aLinkedin:before {
+    content: '';
+    background: #0e76a8;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactMe .aLinkedin:hover {
+    background-position: 0;
+}
+
+.contactMe .aLinkedin:hover::before {
+    width: 100%;
+}
+
+footer {
+    background-color: #385bff;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer img {
+    width: 80px;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    float: left;
+    margin-right: 20px;
+}
+
+footer p {
+    width: fit-content;
+    margin: 0;
+    float: left;
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+    color: white;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 1399px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    main {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    main {
+        min-height: 60vh;
+    }
+
+    .myWorks,
+    .contactMe {
+        min-height: auto;
+    }
+
+    .contactMe h2 {
+        margin-bottom: 50px;
+    }
+
+    main,
+    section,
+    footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .antes,
+    .despues {
+        font-size: 30px;
+    }
+
+    .contactMe p {
+        font-size: 27px;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    main {
+        padding-top: 0;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    main img {
+        width: 50%;
+        float: none;
+        text-align: center;
+        margin-top: 150px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .aboutMe p {
+        font-size: 18px;
+    }
+
+    .contactMe img {
+        position: relative;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .contactMe p {
+        font-size: 22px;
+    }
+
+    .contactMe img {
+        width: 100%;
+    }
+
+    .aboutMe img {
+        display: none;
+    }
+
+    .aboutMe p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .contactMe p {
+        font-size: 26px;
+    }
+
+    .contactMe img {
+        display: none;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+
+    header img {
+        width: 50px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    .contactMe {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    h2 {
+        font-size: 27px;
+    }
+
+    .contactMe p {
+        font-size: 23px;
+    }
+}
+
+/* FIX FORZANDO EL H1 PARA QUE NO SE CORTE */
+
+@media only screen and (max-width: 540px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    h1 {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 20px;
+    }
+}
