@@ -195,9 +195,9 @@ h1 a:hover {
     }
 }
 
-main {
+/* main {
     min-height: 80vh;
-}
+} */
 
 .myWorks,
 .contactMe {
@@ -539,9 +539,9 @@ footer p {
 }
 
 @media only screen and (max-width: 1199px) {
-    main {
+    /* main {
         min-height: 60vh;
-    }
+    } */
 
     .myWorks,
     .contactMe {
