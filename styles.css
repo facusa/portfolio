@@ -553,15 +553,9 @@ footer p {
     }
 
     main,
-    section,
-    footer {
+    section {
         padding-top: 50px;
         padding-bottom: 50px;
-    }
-
-    footer {
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     h1 {
