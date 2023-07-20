@@ -559,6 +559,11 @@ footer p {
         padding-bottom: 50px;
     }
 
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     h1 {
         font-size: 40px;
     }
