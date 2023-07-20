@@ -390,7 +390,7 @@ main img {
 }
 
 .contacto {
-    transform: translateY(10%);
+    transform: translateY(30%) !important;
 }
 
 .contactMe .aPhone,
@@ -505,8 +505,8 @@ main img {
 footer {
     background-color: #385bff;
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer img {
