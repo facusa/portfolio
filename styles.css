@@ -536,6 +536,10 @@ footer p {
     main {
         padding-top: 0;
     }
+
+    main {
+        min-height: 70vh;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
