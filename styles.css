@@ -465,7 +465,7 @@ main img {
 
 .contactMe .aWhatsapp:hover::before {
     width: 100%;
-}
+} 
 
 .contactMe .aLinkedin {
     background-image: linear-gradient(to right,
