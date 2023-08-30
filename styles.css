@@ -373,7 +373,7 @@ main img {
 }
 
 .contactMe h2 {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .contactMe p {
@@ -725,12 +725,12 @@ footer p {
 
 @media only screen and (max-width: 400px) {
     h1 {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
 @media only screen and (max-width: 360px) {
     h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
