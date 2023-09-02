@@ -1,0 +1,766 @@
+@keyframes s3img {
+  0% {
+    transform: translate(-50%, -30%);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-50%, -30%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+button {
+  border-radius: 10rem;
+  border: solid 1px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.8rem 2.6rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+main button {
+  background-color: black;
+  color: #fff100;
+}
+
+main button:hover {
+  background-color: #fff100;
+  color: black;
+  border-color: black;
+}
+
+main p a,
+.s2 p a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  background: linear-gradient(
+      to right,
+      rgba(100, 200, 200, 0),
+      rgba(100, 200, 200, 0)
+    ),
+    linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+  background-size: 100% 0.1em, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 700ms;
+  font-size: 21px;
+}
+
+main p a:hover,
+main p a:focus,
+.s2 p a:hover,
+.s2 p a:focus {
+  color: black;
+  background-size: 0 0.1em, 100% 3px;
+}
+
+main p a img,
+.s2 p a img {
+  width: 20px;
+  transform: translateY(-3px);
+}
+
+.s1 button {
+  background-color: white;
+  color: black;
+}
+
+.s1 button:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.tapar {
+  font-size: 1px;
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+}
+
+.descrip {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.contdescrip {
+  margin-bottom: 7rem;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h2 span {
+  font-weight: 600;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.headerMain {
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+  background: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Banner-Image-Landing-Mextropoli.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header,
+main {
+  width: 50%;
+}
+
+header img[alt="Current"] {
+  width: 13rem;
+}
+
+header img[alt="Mextropoli"] {
+  width: 19rem;
+  margin-bottom: 4rem;
+}
+
+.subTit {
+  bottom: 0;
+  position: relative;
+  font-weight: 200;
+  font-size: 1.7rem;
+}
+
+.prods {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.prods .row {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.prodTit {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.prodSubtit {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: grey;
+}
+
+.prods img {
+  width: 100%;
+}
+
+.s1 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+  background-color: black;
+}
+
+.s1 p:nth-of-type(1) {
+  font-size: 20px;
+}
+
+.s2 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-3-Background-Landing-Mextropoli.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.s2 .marcas .col {
+  height: 150px;
+}
+
+.s2 .marcas img {
+  width: 200px;
+  left: 50%;
+  position: relative;
+}
+
+.s2 .marcas img[alt="ARCHITECTURAL AREALIGHTING"] {
+  width: 160px;
+}
+
+.s2 h3 {
+  margin-bottom: 20px;
+}
+
+.s2 a {
+  margin-top: 60px;
+}
+
+.s2 p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.mgrid2 {
+  color: white;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+button:hover {
+  background-color: #1c1c1c;
+  color: white;
+  border: 1px white solid;
+  transition: 0.2s all ease;
+}
+
+label[for="decisiones"] {
+  color: white;
+}
+
+.s3 {
+  background-color: #aaaaaa;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.s3 img {
+  opacity: 0;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.s3-1,
+.s3-2,
+.s3-3,
+.s3-4,
+.s3-5,
+.s3-6,
+.s3-7 {
+  border-radius: 15px;
+}
+
+.s3 .s3-1 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-4-Image-1-Landing-Mextropoli%20(2).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 640px;
+  margin-right: 20px;
+}
+
+.s3-1:hover,
+.s3-2:hover,
+.s3-2:hover,
+.s3-3:hover,
+.s3-4:hover,
+.s3-5:hover,
+.s3-6:hover,
+.s3-7:hover {
+  box-shadow: inset 0 0 0 150vw rgba(0, 0, 0, 0.5);
+  transition: 0.2s all ease;
+}
+
+.s3-1:hover img, .s3-2:hover img, .s3-3:hover img, .s3-4:hover img, .s3-5:hover img, .s3-6:hover img, .s3-7:hover img  {
+  animation-name: s3img;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.s3 .s3-2 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-4-Image-2-Landing-Mextropoli%20(2).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.s3 .s3-3 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-4-Image-5-Landing-Mextropoli%20(1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.s3 .s3-4 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-4-Image-3-Landing-Mextropoli%20(1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.s3 .s3-5 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-4-Image-4-Landing-Mextropoli%20(1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.s3 .s3-6 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-4-Image-6-Landing-Mextropoli%20(1).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 420px;
+}
+
+.s3 .s3-7 {
+  background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-4-Image-7-Landing-Mextropoli.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 420px;
+}
+
+.row-mobile {
+  display: none;
+}
+
+.s4 {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Background-Image-LinkedIn-Section.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.s4 p {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.s4 p a {
+  font-weight: 400;
+}
+
+.s4 a {
+  color: white;
+}
+
+.s4 a:hover {
+  color: lightgray;
+  transition: all 0.2s ease;
+}
+
+.s4 i {
+  font-size: 2.7rem;
+}
+
+.grids4 {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+.grids4a {
+  grid-column: 1;
+  margin-right: 1rem;
+}
+
+.grids4b {
+  grid-column: 2;
+}
+
+.s4 button {
+  font-size: 1rem;
+  font-weight: 300;
+  border: 0;
+  background-color: #0074b3;
+  color: white;
+}
+
+.s4 button:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.data {
+  padding: 5rem 4rem 5rem 0;
+}
+
+footer img {
+  width: 13rem;
+}
+
+footer p {
+  font-size: 0.7rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+}
+
+.diagrama {
+  width: 100% !important;
+}
+
+.pDiagrama {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hr {
+  height: 2px;
+  border-color: #000;
+}
+
+/* ESPECÍFICAS */
+
+/* FIN ESPECÍFICAS */
+
+@media only screen and (max-width: 1399px) {
+  .s2 .marcas img {
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  header img[alt="Current"] {
+    width: 10rem;
+  }
+
+  header img[alt="Mextropoli"] {
+    width: 16rem;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .descrip, .s1 p:nth-of-type(1) {
+    font-size: 16px;
+  }
+
+  .s2 .marcas img {
+    left: 10%;
+  }
+
+  h3 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  header img[alt="Current"] {
+    width: 8rem;
+  }
+
+  header img[alt="Mextropoli"] {
+    width: 11rem;
+    margin-bottom: 30px;
+  }
+
+  header,
+  main {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  footer img {
+    margin-bottom: 1rem;
+  }
+
+  .prods hr {
+    display: none;
+  }
+
+  .s1parrafo {
+    margin-bottom: 50px;
+  }
+
+  .s2 .marcas {
+    margin-top: 100px;
+  }
+
+  .s3 .row-desktop {
+    display: none;
+  }
+
+  .s3 .row-mobile {
+    display: block;
+  }
+
+  .s3 .row-mobile .s3-1, .s3 .row-mobile .s3-2, .s3 .row-mobile .s3-3, .s3 .row-mobile .s3-4, .s3 .row-mobile .s3-5, .s3 .row-mobile .s3-6, .s3 .row-mobile .s3-7 {
+    height: 200px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: auto;
+  }
+
+  .headerMain, .s1, .s2, .s3 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .s2 {
+    background-image: url("https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Mextr%C3%B3poli/Section-3-Background-Mobile-Landing-Mextropoli.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .s2 .marcas {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .headerMain {
+    background: #fff100;
+  }
+
+  header,
+  main {
+    width: auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .s4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .headerMain {
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  header img {
+    margin-bottom: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .s4 p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .headerMain, .s1, .s2, .s3 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  .s2 .marcas img {
+    width: 100px;
+    left: 20%;
+  }
+
+  .s2 .marcas img[alt="ARCHITECTURAL AREALIGHTING"] {
+    width: 100px;
+  }
+
+  .s2 .marcas .col {
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header img[alt="Current"] {
+    width: 7rem;
+  }
+
+  header img[alt="Mextropoli"] {
+    width: 10rem;
+  }
+}
+
+/* ESTILOS FORM HUBSPOT */
+
+.contform {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.contform .hs-error-msg {
+  color: black;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.hs-input {
+  font-size: 1rem;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.hs-error-msgs {
+  list-style: none;
+}
+
+.hs-error-msg {
+  margin-top: 0.5rem;
+}
+
+.hs_error_rollup {
+  display: none;
+}
+
+.inputs-list {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.hs-form-booleancheckbox::marker {
+  color: #1c1c1c;
+}
+
+.hs-fieldtype-booleancheckbox {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.hs-form-booleancheckbox input {
+  width: 25px;
+}
+
+.hs-form-booleancheckbox span {
+  margin-left: 15px;
+}
+
+input[type="submit"] {
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10rem;
+  background-color: white;
+  padding: 1rem 7rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  background-color: black;
+  border: 1px black solid;
+  margin-top: 1rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  transition: all 0.2s ease;
+}
+
+.s1 p {
+  font-weight: 400;
+}
+
+.s1 p.titform {
+  font-weight: 500;
+  font-size: 27px;
+  margin-bottom: 0;
+}
+
+.s1 p.txtform a {
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  input[type="submit"] {
+    padding: 1rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .s1 p.titform {
+    font-size: 2.3rem;
+  }
+}
+
+/* FIN ESTILOS FORM HUBSPOT */

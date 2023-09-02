@@ -531,7 +531,7 @@ main img {
 }
 
 .b2divA {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041725.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Banner-Image-Landing-Mextropoli.jpg');
     background-size: cover;
 }
 
@@ -563,7 +563,7 @@ main img {
 }
 
 .b2divA .bullets2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041725.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Banner-Image-Landing-Mextropoli.jpg');
 }
 
 .b2divB .bullets2 {
