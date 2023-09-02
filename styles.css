@@ -1,3 +1,206 @@
+@keyframes h1text {
+    0% {
+        content: "";
+    }
+    4% {
+        content: "H";
+    }
+    5% {
+        content: "Hi";
+    }
+    6% {
+        content: "Hi!";
+    }
+    24% {
+        content: "Hi!";
+    }
+    25% {
+        content: "Hi! I";
+    }
+    26% {
+        content: "Hi! I ";
+    }
+    27% {
+        content: "Hi! I a";
+    }
+    28% {
+        content: "Hi! I am";
+    }
+    29% {
+        content: "Hi! I am ";
+    }
+    30% {
+        content: "Hi! I am F";
+    }
+    31% {
+        content: "Hi! I am Fa";
+    }
+    32% {
+        content: "Hi! I am Fac";
+    }
+    33% {
+        content: "Hi! I am Facu";
+    }
+    34% {
+        content: "Hi! I am Facun";
+    }
+    35% {
+        content: "Hi! I am Facund";
+    }
+    36% {
+        content: "Hi! I am Facundo";
+    }
+    37% {
+        content: "Hi! I am Facundo ";
+    }
+    38% {
+        content: "Hi! I am Facundo S";
+    }
+    39% {
+        content: "Hi! I am Facundo Sa";
+    }
+    40% {
+        content: "Hi! I am Facundo Sac";
+    }
+    41% {
+        content: "Hi! I am Facundo Sacc";
+    }
+    42% {
+        content: "Hi! I am Facundo Sacca";
+    }
+    60% {
+        content: "Hi! I am Facundo Sacca";
+    }
+    61% {
+        content: "Hi! I am Facundo Sacca,";
+    }
+    62% {
+        content: "Hi! I am Facundo Sacca, ";
+    }
+    63% {
+        content: "Hi! I am Facundo Sacca, a";
+    }
+    64% {
+        content: "Hi! I am Facundo Sacca, a ";
+    }
+    65% {
+        content: "Hi! I am Facundo Sacca, a w";
+    }
+    66% {
+        content: "Hi! I am Facundo Sacca, a we";
+    }
+    67% {
+        content: "Hi! I am Facundo Sacca, a web";
+    }
+    68% {
+        content: "Hi! I am Facundo Sacca, a web ";
+    }
+    69% {
+        content: "Hi! I am Facundo Sacca, a web d";
+    }
+    70% {
+        content: "Hi! I am Facundo Sacca, a web de";
+    }
+    71% {
+        content: "Hi! I am Facundo Sacca, a web dev";
+    }
+    72% {
+        content: "Hi! I am Facundo Sacca, a web deve";
+    }
+    73% {
+        content: "Hi! I am Facundo Sacca, a web devel";
+    }
+    74% {
+        content: "Hi! I am Facundo Sacca, a web develo";
+    }
+    75% {
+        content: "Hi! I am Facundo Sacca, a web develop";
+    }
+    76% {
+        content: "Hi! I am Facundo Sacca, a web develope";
+    }
+    77% {
+        content: "Hi! I am Facundo Sacca, a web developer";
+    }
+    78% {
+        content: "Hi! I am Facundo Sacca, a web developer ";
+    }
+    79% {
+        content: "Hi! I am Facundo Sacca, a web developer a";
+    }
+    80% {
+        content: "Hi! I am Facundo Sacca, a web developer an";
+    }
+    81% {
+        content: "Hi! I am Facundo Sacca, a web developer and";
+    }
+    82% {
+        content: "Hi! I am Facundo Sacca, a web developer and ";
+    }
+    83% {
+        content: "Hi! I am Facundo Sacca, a web developer and U";
+    }
+    84% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX";
+    }
+    85% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/";
+    }
+    86% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/U";
+    }
+    87% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI";
+    }
+    88% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI ";
+    }
+    89% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI d";
+    }
+    90% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI de";
+    }
+    91% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI des";
+    }
+    92% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI desi";
+    }
+    93% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI desig";
+    }
+    94% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI design";
+    }
+    95% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI designe";
+    }
+    96% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI designer";
+    }
+    97% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI designer";
+    }
+    100% {
+        content: "Hi! I am Facundo Sacca, a web developer and UX/UI designer";
+    }
+}
+
+@keyframes h1text-span {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -14,14 +217,36 @@ body {
 }
 
 h1 {
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #385bff;
+}
+
+h1, h1::before {
     font-size: 55px;
     line-height: 1.3;
-    margin-bottom: 0;
     z-index: 1;
 }
 
-.h1div {
-    transform: translateY(40%);
+h1::before {
+    content: "";
+    animation-name: h1text;
+    animation-duration: 3.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+h1 span {
+    animation-name: h1text-span;
+    animation-duration: 0.5s;
+    animation-iteration-count: 7;
+    animation-fill-mode: forwards;
+}
+
+.descrip {
+    font-size: 35px;
 }
 
 h2 {
@@ -103,69 +328,68 @@ header button {
 }
 
 main,
-section,
-footer {
-    padding-top: 100px;
+section {
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
-h1 a {
+.descrip a {
     color: black;
     text-decoration: underline #385bff;
     box-shadow: inset 0 0 0 0 #385bff;
-    transition: color .4s ease-in-out, box-shadow .3s ease-in-out;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
 }
 
-h1 a:hover {
+.descrip a:hover {
     box-shadow: inset 700px 0 0 0 #385bff;
     color: white;
 }
 
 
 
-/* DEMO-SPECIFIC STYLES */
+/* DEMO-SPECIFIC STYLES *
 .typewriter1 h1 {
     color: #000;
     overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
+    /* Ensures the content is not revealed until the animation *
     border-right: 10px solid #385bff;
     border-color: transparent;
-    /* The typwriter cursor */
+    /* The typwriter cursor *
     white-space: nowrap;
-    /* Keeps the content on a single line */
+    /* Keeps the content on a single line *
     animation:
         typing 1.2s steps(30, end) forwards,
         blink-caret .2s step-end 6 forwards;
 }
 
-/* DEMO-SPECIFIC STYLES */
+/* DEMO-SPECIFIC STYLES *
 .typewriter2 h1 {
     width: 0;
     color: #000;
     overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
+    /* Ensures the content is not revealed until the animation *
     border-right: 10px solid #385bff;
     border-color: transparent;
-    /* The typwriter cursor */
+    /* The typwriter cursor *
     white-space: nowrap;
-    /* Keeps the content on a single line */
+    /* Keeps the content on a single line *
     animation:
         typing 1.2s steps(30, end) forwards,
         blink-caret .2s step-end 6 forwards;
     animation-delay: 1.2s;
 }
 
-/* DEMO-SPECIFIC STYLES */
+/* DEMO-SPECIFIC STYLES *
 .typewriter3 h1 {
     width: 0;
     color: #000;
     overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
+    /* Ensures the content is not revealed until the animation *
     border-right: 10px solid #385bff;
     border-color: transparent;
-    /* The typwriter cursor */
+    /* The typwriter cursor *
     white-space: nowrap;
-    /* Keeps the content on a single line */
+    /* Keeps the content on a single line *
     animation:
         typing 1.2s steps(30, end) forwards,
         blink-caret .2s step-end 6 forwards;
@@ -197,12 +421,12 @@ h1 a:hover {
 }
 
 main {
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 .myWorks,
 .contactMe {
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 main img {
@@ -232,6 +456,7 @@ main img {
     font-weight: 400;
     color: white;
     font-size: 21px;
+    text-align: justify;
 }
 
 .aboutMe h2 span {
@@ -529,7 +754,7 @@ footer p {
 }
 
 @media only screen and (max-width: 1399px) {
-    h1 {
+    h1, h1::before {
         font-size: 50px;
     }
 
@@ -538,7 +763,7 @@ footer p {
     }
 
     main {
-        min-height: 70vh;
+        min-height: 50vh;
     }
 }
 
@@ -562,7 +787,7 @@ footer p {
         padding-bottom: 50px;
     }
 
-    h1 {
+    h1, h1::before {
         font-size: 40px;
     }
 
@@ -587,12 +812,12 @@ footer p {
         padding-top: 0;
     }
 
-    .h1div {
+    h1 {
         transform: translateY(0%);
         margin-top: 20px;
     }
 
-    h1 {
+    h1, h1::before {
         font-size: 45px;
     }
 
@@ -621,7 +846,7 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
-    h1 {
+    h1, h1::before {
         font-size: 35px;
     }
 
@@ -643,6 +868,10 @@ footer p {
 
     .aboutMe p {
         font-size: 16px;
+    }
+
+    .descrip {
+        font-size: 25px;
     }
 }
 
@@ -680,7 +909,7 @@ footer p {
         width: 50%;
     }
 
-    .h1div {
+    h1 {
         margin-top: 50px;
     }
 
@@ -690,6 +919,22 @@ footer p {
 
     .contactMe {
         padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    h1, h1::before {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    h1, h1::before {
+        font-size: 32px;
+    }
+
+    .descrip {
+        font-size: 20px;
     }
 }
 
@@ -703,34 +948,5 @@ footer p {
     }
 }
 
-/* FIX FORZANDO EL H1 PARA QUE NO SE CORTE */
 
-@media only screen and (max-width: 540px) {
-    h1 {
-        font-size: 30px;
-    }
-}
 
-@media only screen and (max-width: 470px) {
-    h1 {
-        font-size: 27px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    h1 {
-        font-size: 25px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    h1 {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    h1 {
-        font-size: 16px;
-    }
-}
