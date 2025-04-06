@@ -694,8 +694,8 @@ main img {
 
 .contactMe .aLinkedin {
     background-image: linear-gradient(to right,
-            #0e76a8,
-            #0e76a8 50%,
+            #2BB741,
+            #2BB741 50%,
             #000 50%);
     background-size: 200% 100%;
     background-position: -100%;
@@ -709,7 +709,7 @@ main img {
 
 .contactMe .aLinkedin:before {
     content: '';
-    background: #0e76a8;
+    background: #2BB741;
     display: block;
     position: absolute;
     bottom: -3px;
