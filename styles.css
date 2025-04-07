@@ -531,51 +531,51 @@ main img {
 }
 
 .b2divA {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Banner-Image-Landing-Mextropoli.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/Banner-Image-Landing-Mextropoli.jpg');
     background-size: cover;
 }
 
 .b2divB {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041536.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/Captura\ de\ pantalla\ 2023-07-15\ 041536.jpg');
     background-size: cover;
 }
 
 .b2divC {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://21369116.fs1.hubspotusercontent-na1.net/hubfs/21369116/Insside/AdobeStock_572971350.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://21369116.fs1.hubspotusercontent-na1.net/hubfs/21369116/Insside/AdobeStock_572971350.jpeg');
     background-size: cover;
     background-position: right;
 }
 
 .b2divD {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://21647068.fs1.hubspotusercontent-na1.net/hubfs/21647068/%5BLATAM%5D%20Landings/Landing-Im%C3%A1gen.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://21647068.fs1.hubspotusercontent-na1.net/hubfs/21647068/%5BLATAM%5D%20Landings/Landing-Im%C3%A1gen.jpg');
     background-size: cover;
 }
 
 .b2divE {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/360_F_306025527_l6SsftbNIm72C6nnPr2tne35elVcqxFS.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/360_F_306025527_l6SsftbNIm72C6nnPr2tne35elVcqxFS.jpg');
     background-size: cover;
 }
 
 .b2divF {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Control%20de%20iluminaci%C3%B3n%20CX/Background-Image-Controles-CX.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Control%20de%20iluminaci%C3%B3n%20CX/Background-Image-Controles-CX.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .b2divG {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 150954.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 150954.png');
     background-size: cover;
     background-position: center;
 }
 
 .b2divH {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/AZUL-LifeStyle-Drone-2-27.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/AZUL-LifeStyle-Drone-2-27.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .b2divI {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 151832.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 151832.png');
     background-size: cover;
     background-position: center;
 }
