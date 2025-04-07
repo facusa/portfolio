@@ -225,7 +225,7 @@ h1 span {
 }
 
 h1, h1::before {
-    font-size: 55px;
+    font-size: 69px;
     line-height: 1.3;
     z-index: 1;
 }
@@ -233,7 +233,7 @@ h1, h1::before {
 h1::before {
     content: "";
     animation-name: h1text;
-    animation-duration: 2.7s;
+    animation-duration: 3.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -788,7 +788,7 @@ footer p {
 
 @media only screen and (max-width: 1399px) {
     h1, h1::before {
-        font-size: 50px;
+        font-size: 59px;
     }
 
     main {
@@ -821,7 +821,7 @@ footer p {
     }
 
     h1, h1::before {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     h2 {
@@ -843,6 +843,7 @@ footer p {
 @media only screen and (max-width: 991px) {
     main {
         padding-top: 0;
+        min-height: 40vh;
     }
 
     h1 {
@@ -851,10 +852,11 @@ footer p {
     }
 
     h1, h1::before {
-        font-size: 45px;
+        font-size: 56px;
     }
 
     main img {
+        display: none;
         width: 50%;
         float: none;
         text-align: center;
@@ -879,8 +881,10 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
+    main {min-height: 30vh;}
+
     h1, h1::before {
-        font-size: 35px;
+        font-size: 42px;
     }
 
     h2 {
@@ -934,8 +938,8 @@ footer p {
     }
 
     main {
-        min-height: auto; 
-        padding-bottom: 100px;
+        min-height: 30vh; 
+        padding-bottom: 20px;
     }
 
     main img {
