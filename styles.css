@@ -562,6 +562,24 @@ main img {
     background-position: center;
 }
 
+.b2divG {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 150954.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.b2divH {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/AZUL-LifeStyle-Drone-2-27.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.b2divI {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 151832.png');
+    background-size: cover;
+    background-position: center;
+}
+
 .b2divA .bullets2 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Banner-Image-Landing-Mextropoli.jpg');
 }
@@ -585,6 +603,21 @@ main img {
 
 .b2divF .bullets2 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lp-es.currentlighting.com/hubfs/LATAM/Landings/04%20Landing%20Pages/Control%20de%20iluminaci%C3%B3n%20CX/Background-Image-Controles-CX.jpg');
+    background-position: center;
+}
+
+.b2divG .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 150954.png');
+    background-position: center;
+}
+
+.b2divH .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/AZUL-LifeStyle-Drone-2-27.jpg');
+    background-position: center;
+}
+
+.b2divI .bullets2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Captura\ de\ pantalla\ 2025-04-07\ 151832.png');
     background-position: center;
 }
 
