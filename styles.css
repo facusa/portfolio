@@ -208,12 +208,12 @@ body {
 ::-moz-selection {
     /* Code for Firefox */
     color: white;
-    background: #244b8a;
+    background: #0343a8;
 }
 
 ::selection {
     color: white;
-    background: #244b8a;
+    background: #0343a8;
 }
 
 h1 {
@@ -221,7 +221,7 @@ h1 {
 }
 
 h1 span {
-    color: #244b8a;
+    color: #0343a8;
 }
 
 h1, h1::before {
@@ -275,17 +275,17 @@ header button {
 
 
 .btn {
-    color: #244b8a;
+    color: #0343a8;
     font-size: 23px;
     font-weight: 600;
-    border: 3px solid #244b8a;
+    border: 3px solid #0343a8;
     padding: 5px 15px;
     overflow: hidden;
     transition: 1s all ease;
 }
 
 .btn::before {
-    background: #244b8a;
+    background: #0343a8;
     content: "";
     position: absolute;
     top: 50%;
@@ -308,7 +308,7 @@ header button {
 
 .btn:hover {
     color: white;
-    border: 3px solid #244b8a;
+    border: 3px solid #0343a8;
 }
 
 
@@ -335,13 +335,13 @@ section {
 
 .descrip a {
     color: black;
-    text-decoration: underline #244b8a;
-    box-shadow: inset 0 0 0 0 #244b8a;
+    text-decoration: underline #0343a8;
+    box-shadow: inset 0 0 0 0 #0343a8;
     transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
 }
 
 .descrip a:hover {
-    box-shadow: inset 700px 0 0 0 #244b8a;
+    box-shadow: inset 700px 0 0 0 #0343a8;
     color: white;
 }
 
@@ -352,7 +352,7 @@ section {
     color: #000;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation *
-    border-right: 10px solid #244b8a;
+    border-right: 10px solid #0343a8;
     border-color: transparent;
     /* The typwriter cursor *
     white-space: nowrap;
@@ -368,7 +368,7 @@ section {
     color: #000;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation *
-    border-right: 10px solid #244b8a;
+    border-right: 10px solid #0343a8;
     border-color: transparent;
     /* The typwriter cursor *
     white-space: nowrap;
@@ -385,7 +385,7 @@ section {
     color: #000;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation *
-    border-right: 10px solid #244b8a;
+    border-right: 10px solid #0343a8;
     border-color: transparent;
     /* The typwriter cursor *
     white-space: nowrap;
@@ -416,7 +416,7 @@ section {
     }
 
     50% {
-        border-color: #244b8a
+        border-color: #0343a8
     }
 }
 
@@ -436,7 +436,7 @@ main img {
 
 .aboutMe {
     height: auto;
-    background: linear-gradient(to right, #1e3188, #244b8a);
+    background: linear-gradient(to right, #1e3188, #0343a8);
     padding: 0;
 }
 
@@ -473,7 +473,7 @@ main img {
 
 .myWorks h2 span,
 .contactMe h2 span {
-    text-decoration: underline 6px #244b8a;
+    text-decoration: underline 6px #0343a8;
 }
 
 .servicesItems .col {
@@ -621,8 +621,8 @@ main img {
 .contactMe .aPhone,
 .contactMe .aEmail {
     background-image: linear-gradient(to right,
-            #244b8a,
-            #244b8a 50%,
+            #0343a8,
+            #0343a8 50%,
             #000 50%);
     background-size: 200% 100%;
     background-position: -100%;
@@ -637,7 +637,7 @@ main img {
 .contactMe .aPhone:before,
 .contactMe .aEmail:before {
     content: '';
-    background: #244b8a;
+    background: #0343a8;
     display: block;
     position: absolute;
     bottom: -3px;
@@ -694,8 +694,8 @@ main img {
 
 .contactMe .aLinkedin {
     background-image: linear-gradient(to right,
-            #244b8a,
-            #244b8a 50%,
+            #0343a8,
+            #0343a8 50%,
             #000 50%);
     background-size: 200% 100%;
     background-position: -100%;
@@ -709,7 +709,7 @@ main img {
 
 .contactMe .aLinkedin:before {
     content: '';
-    background: #244b8a;
+    background: #0343a8;
     display: block;
     position: absolute;
     bottom: -3px;
@@ -728,7 +728,7 @@ main img {
 }
 
 footer {
-    background-color: #244b8a;
+    background-color: #0343a8;
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
