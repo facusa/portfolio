@@ -109,7 +109,7 @@ if (foodSelect) {
 }
 
 // URL del Google Apps Script (Reemplazar con la URL que obtengas en el paso 4)
-const scriptURL = 'https://script.google.com';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzCIPhx428V1WRvGLcyqu2NKhn2DUMq-RMAptlpyzzEam6RW3gEs557AV6hbcvcg95_Ww/exec';
 
 if (rsvpForm) {
     rsvpForm.addEventListener('submit', e => {
