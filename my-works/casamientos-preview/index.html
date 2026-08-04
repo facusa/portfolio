@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiara & Martín</title>
+    <meta name="description" content="24 de octubre del 2026">
+    <link rel="icon" type="image/png" href="isotipo.png">
+    <link rel="apple-touch-icon" href="isotipo.png">
+
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="trama-02.webp" as="image" type="image/webp">
+    <link rel="preload" href="logotipo.png" as="image">
+    <link rel="preload" href="Beloved%20Script.ttf" as="font" type="font/ttf" crossorigin>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+
+    <!-- Esenciales Open Graph -->
+    <meta property="og:title" content="Chiara & Martín" />
+    <meta property="og:description" content="24 de octubre del 2026" />
+    <meta property="og:image" content="https://chasamiento-v5.vercel.app/og-image.jpg" />
+    <meta property="og:type" content="website" />
+
+    <!-- Especificaciones de la imagen (Ayudan a que cargue más rápido la primera vez) -->
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Logo del casamiento de Chiara y Martín" />
+
+    <!-- Twitter Cards (X / iMessage) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chiara & Martín" />
+    <meta name="twitter:description" content="24 de octubre del 2026" />
+    <meta name="twitter:image" content="https://chasamiento-v5.vercel.app/og-image.jpg" />
+</head>
+
+<body class="locked">
+    <!-- Envelope Screen -->
+    <div id="envelope-screen" class="envelope-screen">
+        <div class="envelope-container" id="envelope-container">
+            <h2 class="envelope-text">¡Abrime!</h2>
+            <div class="envelope">
+                <div class="envelope-paper">
+                    <div class="paper-content">
+                        <img src="logotipo.png" alt="Chiara & Martín" class="paper-logo">
+                        <p>24.10.2026</p>
+                    </div>
+                </div>
+                <div class="envelope-flap"></div>
+                <div class="envelope-body"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Audio Player -->
+    <div class="audio-control" id="audioControl">
+        <i class="fas fa-music"></i>
+    </div>
+    <!-- Audio player configurado con el audio de WhatsApp -->
+    <audio id="bgMusic" loop>
+        <source src="audio-boda.mpeg" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Hero Section -->
+    <header class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="main-title">
+                <img src="logotipo.png" alt="Chiara & Martín" class="hero-logo">
+            </h1>
+            <p class="date">24 de octubre del 2026</p>
+            <p class="hebrew-date">13 de Jeshván de 5787</p>
+
+            <h3 class="countdown-title">¡Cada vez falta menos!</h3>
+            <div class="countdown" id="countdown">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Días</small>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Horas</small>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutos</small>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Segundos</small>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Calendar & Location -->
+    <section class="section event-details" id="detalles">
+        <div class="container text-center">
+            <h3 class="countdown-title"></h3>
+            <h2 class="section-title">Te esperamos a las 20:00 en Espacio Pilar 1</h2>
+            <p class="location-address">Chile 1963, CP: 1630<br>Pilar, Buenos Aires</p>
+            <div style="margin-top: 15px; margin-bottom: 40px;">
+                <a href="https://maps.google.com/?q=Espacio+Pilar+1,+Chile+1963,+1630+Pilar,+Provincia+de+Buenos+Aires"
+                    target="_blank" class="btn-outline">Cómo llegar</a>
+            </div>
+            <div class="transport-info mt-5">
+                <div class="info-box glass">
+                    <i class="fas fa-bus"></i>
+                    <h4>Cómo ir</h4>
+                    <p>Recomendamos venir en Uber o que organicen buses para
+                        mayor comodidad y seguridad de todos. Quien no tenga con quién juntarse, que nos avise y
+                        nosotros
+                        los contactamos entre sí.</p>
+                </div>
+                <div class="info-box glass">
+                    <i class="fas fa-parking"></i>
+                    <h4>Estacionamiento</h4>
+                    <p>Para aquellos que decidan venir en auto, el predio cuenta con estacionamiento privado y seguridad
+                        toda la noche.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section rsvp-section" id="rsvp">
+        <div class="container">
+            <h2 class="section-title">RSVP</h2>
+            <p class="text-center mb-4 text-light">Por favor, confirmanos tu asistencia.<br><strong
+                    class="highlight">Nota:</strong> Cada invitado debe llenar este formulario
+                individualmente.</p>
+
+            <form class="rsvp-form glass" id="rsvpForm" name="rsvpForm">
+                <div class="form-group">
+                    <label for="name">Nombre y apellido *</label>
+                    <input type="text" id="name" name="Nombre" required placeholder="Ej: Lionel Messi">
+                </div>
+
+                <div class="form-group">
+                    <label>¿Asistirás? *</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="Asistencia" value="yes" required> Sí, ¡ahí estaré!</label>
+                        <label><input type="radio" name="Asistencia" value="no"> No podré asistir</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="food">Restricciones alimentarias *</label>
+                    <select id="food" name="food-select" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="Ninguna">Ninguna</option>
+                        <option value="Kosher">Kosher</option>
+                        <option value="Vegetariano">Vegetariano</option>
+                        <option value="Vegano">Vegano</option>
+                        <option value="Celiaco">Celíaco</option>
+                        <option value="Otra">Otra</option>
+                    </select>
+                </div>
+
+                <div class="form-group" id="other-food-group" style="display: none;">
+                    <label for="other-food">Si elegiste "Otra", indicanos cuál es tu restricción *</label>
+                    <input type="text" id="other-food" name="Restriccion" placeholder="Especificá tu restricción">
+                </div>
+
+                <!-- NUEVO CAMPO DE CANCIÓN -->
+                <div class="form-group">
+                    <label for="song">¿Qué canciones no pueden faltar?</label>
+                    <input type="text" id="song" name="Cancion" placeholder="Ej: Dancing Queen">
+                </div>
+
+                <button type="submit" class="btn-primary w-100" id="submitBtn">Enviar</button>
+            </form>
+
+            <!-- Contenedor para el mensaje de éxito (oculto por defecto) -->
+            <div id="rsvp-message" class="toast-message text-center" style="display: none;">
+                <h3 id="rsvp-response-text"></h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regalos -->
+    <section class="section" id="regalos">
+        <div class="container">
+            <div class="info-card glass text-center" style="max-width: 800px; margin: 0 auto;">
+                <i class="fas fa-gift fa-3x mb-3"></i>
+                <h3>Regalos</h3>
+                <p>Estamos muy felices de compartir este momento con ustedes. Si desean hacernos un regalo, pueden
+                    ayudarnos a construir nuestro hogar o hacer realidad nuestra luna de miel. ¡Gracias por
+                    acompañarnos en este día tan especial!
+                </p>
+                <div class="text-center" style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                    <button class="btn-outline mt-3" onclick="toggleGifts()">Ver datos bancarios</button>
+                    <a href="https://www.wishbob.com" target="_blank" class="btn-outline mt-3">Ver lista de
+                        regalos</a>
+                </div>
+                <div class="gifts-details" id="giftsDetails">
+                    <div class="account-box">
+                        <p>
+                            <b>Caja de ahorro en dólares (USD)</b> <br>
+                            Martin Cohen <br>
+
+                            CBU: 00000000-00000000000000 <br>
+
+                            ALIAS: Chiara.Martin <br>
+
+                            Banco: Galicia
+                        </p>
+                    </div>
+                    <div class="account-box">
+                        <p>
+                            <b>Caja de ahorro en pesos ($)</b><br>
+
+                            Martin Cohen <br>
+
+                            CBU: 00000000-00000000000000 <br>
+
+                            ALIAS: mcohen <br>
+
+                            Banco: Galicia
+                        </p>
+                    </div>
+                    <div class="account-box">
+                        <p>
+                            <b>Cuenta en España (EUR) </b> <br>
+
+                            Beneficiario: Chiara Weinstein <br>
+
+                            IBAN: ES00 0000 0000 0000 0000 0000 <br>
+
+                            Código BIC o SWIFT: ABCD1234 <br>
+
+                            Nombre y dirección de la entidad bancaria: Revolut Bank UAB <br>
+
+                            Gran Vía 123, Madrid, Spain <br>
+
+                            BIC del banco corresponsal: ABCDEFGH <br>
+
+                            Bizum: +34 123 456 789
+
+                        </p>
+                    </div>
+                    <div class="account-box">
+                        <p>
+                            <b>Cuenta en Estados Unidos (USD)</b> <br>
+                            Nro cuenta: 000000000000 <br>
+                            Wire transfer/ruta: 000000000 <br>
+
+                            Tipo cuenta: corriente <br>
+
+                            Calle: Harbor Way 12345, Miami, FL <br>
+
+                            CP: 33180
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dress Code -->
+    <section class="section" id="dresscode">
+        <div class="container">
+            <div class="info-card glass text-center" style="max-width: 800px; margin: 0 auto;">
+                <i class="fas fa-user-tie fa-3x mb-3"></i>
+                <h3>Dress Code</h3>
+                <p><b style="margin-bottom: 5px;">Vestimenta elegante</b></p>
+                <p>(Las zapatillas están invitadas recién a partir de medianoche)
+                </p>
+                <div class="text-center">
+                    <a href="https://pin.it/16s2jaRrH" target="_blank" class="btn-outline mt-3">¡Mirá ejemplos acá!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story - Polaroid Gallery -->
+    <section class="section historia-section" id="historia">
+        <div class="container">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <p class="historia-descripcion">Once años de un camino compartido, de miradas cómplices y de elegirnos día a
+                día. Tras años de vivencias y aprendizajes, hoy elegimos compartir con ustedes este día, que marca el
+                inicio de una nueva aventura y el comienzo de un nuevo capítulo en nuestra historia.</p>
+
+            <div class="polaroid-gallery">
+                <button class="gallery-btn gallery-prev" aria-label="Anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="polaroid-stage" id="polaroidStage">
+                    <div class="polaroid-card" data-index="0">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2015.jpg" alt="2015"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2015</span>
+                    </div>
+                    <div class="polaroid-card" data-index="1">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2016.jpg" alt="2016"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2016</span>
+                    </div>
+                    <div class="polaroid-card" data-index="2">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2017.jpg" alt="2017"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2017</span>
+                    </div>
+                    <div class="polaroid-card" data-index="3">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2018.jpg" alt="2018"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2018</span>
+                    </div>
+                    <div class="polaroid-card" data-index="4">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2019.jpg" alt="2019"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2019</span>
+                    </div>
+                    <div class="polaroid-card" data-index="5">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2020.jpg" alt="2020"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2020</span>
+                    </div>
+                    <div class="polaroid-card" data-index="6">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2021.jpg" alt="2021"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2021</span>
+                    </div>
+                    <div class="polaroid-card" data-index="7">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2022.jpg" alt="2022"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2022</span>
+                    </div>
+                    <div class="polaroid-card" data-index="8">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2023.jpg" alt="2023"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2023</span>
+                    </div>
+                    <div class="polaroid-card" data-index="9">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2024.jpg" alt="2024"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2024</span>
+                    </div>
+                    <div class="polaroid-card" data-index="10">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2025.jpg" alt="2025"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2025</span>
+                    </div>
+                    <div class="polaroid-card" data-index="11">
+                        <div class="polaroid-photo">
+                            <img src="./fotos-nuestra-historia/2026.jpg" alt="2026"
+                                onerror="this.parentElement.classList.add('no-img')">
+                        </div>
+                        <span class="polaroid-year">2026</span>
+                    </div>
+                </div>
+
+                <button class="gallery-btn gallery-next" aria-label="Siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- + Info -->
+    <section class="section guide-section" id="guia">
+        <div class="container">
+            <div class="social-info mt-5 glass p-4 rounded text-center">
+                <div class="social-actions">
+                    <div class="social-action-block">
+                        <p>¡Etiquetanos en Instagram!</p>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com" target="_blank" class="btn-outline"><i
+                                    class="fab fa-instagram"></i> @ChiaraYChino</a>
+                        </div>
+                    </div>
+
+                    <div class="social-action-block">
+                        <p>¿Qué canción no puede faltar?</p>
+                        <div class="social-links">
+                            <a href="https://open.spotify.com" target="_blank" class="btn-outline"><i
+                                    class="fab fa-spotify"></i> Ver Playlist </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>¡Los esperamos para celebrar juntos!</p>
+        <img src="isotipo.png" alt="C & M" class="footer-isotipo">
+        <div class="footer-divider"></div>
+        <div class="footer-credits">
+            <p>
+                Página Web desarrollada por <a href="https://www.linkedin.com/in/facundo-sacca/"
+                    style="text-decoration: underline; font-weight: 900;">Facundo Sacca</a>
+                <br>
+                <a href="tel:+5491136326841" style="text-decoration: underline;">+54 9 11 3632 6841</a> - <a
+                    href="mailto:facusacca@gmail.com" style="text-decoration: underline;">facusacca@gmail.com</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Fixed Bottom Navigation -->
+    <!-- Fixed Bottom Navigation -->
+    <nav class="bottom-nav">
+        <ul>
+            <li>
+                <a href="#inicio">
+                    <img src="isotipo.png" alt="C&M" class="nav-logo">
+                </a>
+            </li>
+            <li><a href="#detalles"><i class="fas fa-map-marker-alt"></i> <span>Dónde</span></a></li>
+            <li><a href="#rsvp"><i class="fas fa-envelope-open-text"></i> <span>RSVP</span></a></li>
+            <li><a href="#regalos"><i class="fas fa-gift"></i> <span>Regalos</span></a></li>
+            <li><a href="#dresscode"><i class="fas fa-user-tie"></i> <span>Dress Code</span></a></li>
+            <li><a href="#historia"><i class="fas fa-book-open"></i> <span>Nosotros</span></a></li>
+            <li><a href="#guia"><i class="fas fa-plus-circle"></i> <span>+ Info</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
